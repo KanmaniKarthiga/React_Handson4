@@ -1,0 +1,57 @@
+
+.navbar{
+  height: 60px;
+  width: 100vw;
+  background-color: rgb(41, 41, 124);
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  padding-top: 6px;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+}
+.home, .contact{
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+h1{
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+button{
+  float: right;
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 22px;
+  background-color: rgb(215, 255, 241);
+  margin-right: 80px;
+  margin-top: 40px;
+  
+}
+#table{
+  clear: both;
+  width: 90%;
+  height: 470px;
+  margin-left: 60px;
+  border-collapse: collapse;
+}
+th, td{
+  background-color: white;
+  border-bottom: 1px solid rgb(187, 183, 183);
+  text-align: center;
+}
+#col1{
+  text-align: start;
+  padding-left: 30px;
+}
+#col2{
+  padding-left: 100px;
+}
