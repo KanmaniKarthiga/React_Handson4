@@ -63,7 +63,7 @@ function Student(){
     return(
         <div className="student">
             <h1>Students Details</h1>
-            <button><Link id="stu_btn">Add new student</Link></button>
+            <button><Link to={'/'} id="stu_btn">Add new student</Link></button>
             <table id="table">
                 <tr>
                     <th id="col1">Name</th>
@@ -79,7 +79,7 @@ function Student(){
                             <td id="col2">{item.Age}</td>
                             <td>{item.Course}</td>
                             <td>{item.Batch}</td>
-                            <td><Link>{item.Change}</Link></td>
+                            <td><Link to={'/'}>{item.Change}</Link></td>
                         </tr>
                     )
                 })}
